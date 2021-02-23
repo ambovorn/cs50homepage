@@ -1,0 +1,107 @@
+body
+{
+    font-family: 'Comic Sans', cursive;
+    background-image: linear-gradient(#87cefa, #FFFACD);
+    height: 100%;
+}
+
+.banner
+{
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+    height: 75px;
+}
+
+.card
+{
+    margin-right: 25px;
+}
+
+.subheading1
+{
+    display: inline;
+}
+
+.subheading2
+{
+    text-align: right;
+    height: 0px;
+}
+
+.btn-secondary
+{
+    background-color: yellow;
+    color: blue;
+}
+
+.btn-secondary:hover
+{
+    background-color: green;
+}
+
+.link
+{
+    color: yellow;
+}
+
+.link:visited
+{
+    color: yellow;
+}
+
+.welcome
+{
+    text-align: left;
+    margin-right: 150px;
+}
+
+.caption
+{
+    font-size: 10px;
+    color: blue;
+    text-align: center;
+}
+
+.carletonpics
+{
+    margin-right: 10px;
+}
+
+.james
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carletonxp
+{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vball
+{
+    margin-right: 10px;
+}
+
+.volleyballxp
+{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bio
+{
+    margin-right: 10px;
+}
+
+.biologyxp
+{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

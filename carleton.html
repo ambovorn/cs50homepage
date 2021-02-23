@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Carleton</title>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function()
+        {
+            let home = document.getElementById("home");
+            home.addEventListener('click', function()
+            {
+                window.location.href = "index.html";
+            });
+
+            let carleton = document.getElementById("carleton");
+            carleton.addEventListener('click', function()
+            {
+                window.location.href = "carleton.html";
+            });
+
+            let volleyball = document.getElementById("volleyball");
+            volleyball.addEventListener('click', function()
+            {
+                window.location.href = "volleyball.html";
+            });
+
+            let biology = document.getElementById("biology");
+            biology.addEventListener('click', function()
+            {
+                window.location.href = "biology.html";
+            });
+        });
+        </script>
+
+    </head>
+    <body>
+        <div class = "banner">
+            <h1 style = "position:relative; top:10px">Carleton</h1>
+        </div>
+
+        <div class = "alert alert-primary" role = "intro" style = "clear">
+            <p class = "subheading1" style = "position:relative; top:5px">A page describing my college experience</p>
+            <p class = "subheading2" style = "position:relative; top:-20px">By: Am Bovornvirakit</p>
+        </div>
+
+        <div style = "float:right" class="btn-group-vertical btn-group-lg">
+            <button id = "home" type="button" class="btn btn-secondary">
+                Homepage
+            </button>
+
+            <button id = "carleton" type="button" class="btn btn-secondary">
+                Carleton
+            </button>
+
+            <button id = "volleyball" type="button" class="btn btn-secondary">
+                Volleyball
+            </button>
+
+            <button id = "biology" type="button" class="btn btn-secondary">
+                Biology
+            </button>
+        </div>
+
+        <div style = "float:left" class = "carletonpics">
+            <img src = "images/carleton.jpg" alt = "Carleton College" width = "341.33" height = "196.33">
+            <figcaption class = "caption">Carleton College in the winter. Image taken from carleton.edu</figcaption>
+            <br>
+            <img src = "images/james.jpg" alt = "James Memorial Hall" width = "321.43" height = "241.29" class = "james">
+            <figcaption class = "caption">James Hall, where I worked as a Resident Assistant <br> during my senior year</figcaption>
+        </div>
+
+        <div style = "float:center" class = "carletonxp">
+            <p>
+                <br>
+                Carleton College was my choice of college for my undergraduate degree. I attended in August of 2016, several months after graduating from high school. <br>
+                Located in Northfield, MN, USA, more or less on the other side of the world from Bangkok, Thailand. <br>
+                Carleton is a liberal arts college, which worked out because I had the opportunity to try a multitude of subjects before deciding on Biology as my major by the end of my sophomore year. <br>
+                I graduated in June of 2020, with a Bacherlor of Arts in Biology along with a Chinese minor.
+                <br><br><br>
+            </p>
+
+            <p>
+                As an RA, I was more or less “in charge” of a floor community.
+                I performed room checks, designed bulletin boards and door decorations, organized events both solo and in collaboration with other RAs in the building/area, attended regular staff meetings, and otherwise made sure that life on the floor ran smoothly.
+                Naturally, this was a job that required a lot of social activity and organization.
+                <br>
+                Prior to becoming an RA, however, I was quite socially awkward and inactive.
+                Even applying to the position itself was a step out of my comfort zone.
+                I found the logistical part of being an RA quite appealing, but not so much the part that required me to go out and simply be someone that residents would be able to trust and rely on.
+                As a result, when I was accepted to the position and began working, I was most definitely out of my depth.
+                <br>
+                The best way that one learns to grow, however, is by being thrown into the deep end of a pool and learning how to swim on the go.
+                I was forced to change out of the person I was before.
+                I learned to effectively work with other RAs, all of whom had individual styles of leadership, and to serve as the first point of contact for other students, some of which were older than I was.
+                In short, by thrusting myself head first into the RA position, I rapidly developed as a person and gained skills that will be invaluable for my future.
+            </p>
+        </div>
+    </body>
+</html>
